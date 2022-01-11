@@ -5,6 +5,7 @@ const ASSET_MANAGER = new AssetManager();
 ASSET_MANAGER.queueDownload("./halo.png");
 ASSET_MANAGER.queueDownload("./skeleton.png");
 ASSET_MANAGER.queueDownload("./dragon.png");
+ASSET_MANAGER.queueDownload("./skeleton2.png");
 
 
 ASSET_MANAGER.downloadAll(() => {
@@ -14,6 +15,7 @@ ASSET_MANAGER.downloadAll(() => {
 	gameEngine.addEntity(new halo(gameEngine));
 	gameEngine.addEntity(new skeleton(gameEngine));
 	gameEngine.addEntity(new dragon(gameEngine));
+	gameEngine.addEntity(new skeleton2(gameEngine));
 	
 	
 
