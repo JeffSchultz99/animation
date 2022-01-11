@@ -11,6 +11,9 @@ ASSET_MANAGER.downloadAll(() => {
 
 	gameEngine.addEntity(new halo(gameEngine));
 	gameEngine.addEntity(new skeleton(gameEngine));
+	gameEngine.addEntity(new dragon(gameEngine));
+	gameEngine.addEntity(new bird(gameEngine));
+	
 
 	gameEngine.init(ctx);
 
