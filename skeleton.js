@@ -1,4 +1,4 @@
-class halo {
+class skeleton {
     constructor(game) {
         this.game = game;
         this.animator = new Animator(ASSET_MANAGER.getAsset("./skeleton.png"), 0, 0, 60.3, 52, 10, 0.5);
