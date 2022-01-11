@@ -1,7 +1,7 @@
 class halo {
     constructor(game) {
         this.game = game;
-        this.animator = new Animator(ASSET_MANAGER.getAsset("./halo.png"), 4, 0, 48, 68, 12, 0.2);
+        this.animator = new Animator(ASSET_MANAGER.getAsset("./halo.png"), 0, 0, 51.25, 68, 12, 0.5);
     }
 
     update() {
