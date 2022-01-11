@@ -5,7 +5,7 @@ class skeleton2 {
         
         this.x = 0;
         this.y = 0;
-        this.speed = 75;
+        this.speed = 35;
     }
 
     update() {
