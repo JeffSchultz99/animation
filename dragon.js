@@ -1,7 +1,7 @@
 class dragon {
     constructor(game) {
         this.game = game;
-        this.animator = new Animator(ASSET_MANAGER.getAsset("./dragon.png"), 0, 0, 221, 172, 6, 0.2);
+        this.animator = new Animator(ASSET_MANAGER.getAsset("./dragon.png"), 0, 10, 221, 172, 6, 0.2);
         
         this.x = 0;
         this.y = 0;
@@ -15,6 +15,6 @@ class dragon {
     }
 
     draw(ctx) {
-        this.animator.drawFrame(this.game.clockTick, ctx, this.x, this.y + 300);
+        this.animator.drawFrame(this.game.clockTick, ctx, this.x, this.y + 200);
     }
 }

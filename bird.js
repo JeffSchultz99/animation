@@ -15,6 +15,6 @@ class bird {
     }
 
     draw(ctx) {
-        this.animator.drawFrame(this.game.clockTick, ctx, this.x, this.y + 800);
+        this.animator.drawFrame(this.game.clockTick, ctx, this.x, this.y + 300);
     }
 }
